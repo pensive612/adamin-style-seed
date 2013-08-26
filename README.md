@@ -19,6 +19,7 @@ styles
 |---lib                 // for reusing mixins and vars
 |---mixins              // custom mixins
 |---vars                // localized variables
+|
 |---global              // all reusable css is imported here
 |
 |---> global            // all modular css should have a home here
