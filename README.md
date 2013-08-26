@@ -1,5 +1,4 @@
 ## adamin-style-seed
-=================
 
 ### What is this is?
 Just a starting point that I recreate all to often when setting up projects
@@ -13,6 +12,37 @@ Couple of notes:
 - If you want to use it, the files are just suggestions, do with it what you like.
 - If you have any questions, don't hesitate to ping me.
 
+### Structure
+
+styles
+|
+|---lib                 // for reusing mixins and vars
+|---mixins              // custom mixins
+|---vars                // localized variables
+|---global              // all reusable css is imported here
+|
+|---> global            // all modular css should have a home here
+|   |---base
+|   |---buttons
+|   |---icons
+|   |---layout
+|   |---modules
+|   |---state
+|   └---typography
+|
+|---> libraries         // for storing vendor/library files
+|
+|---> modules           // for reusable module css
+|   |---footer
+|   |---header
+|   |---forms
+|
+|---static              // for css that will only loades separately
+|
+|---ie                  // for that super fun part of writing ie only css
+
+
+
 Inspired by (and uses):
 - [SMACSS](http://smacss.com/)
 - [Stubbornella](http://www.stubbornella.org/content/)
@@ -22,3 +52,4 @@ Inspired by (and uses):
 - [Bourbon](http://bourbon.io/)
 - [Bower](http://bower.io/)
 - And a million other people doing amazing things
+
