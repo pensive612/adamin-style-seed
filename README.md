@@ -4,7 +4,7 @@
 Just a starting point that I recreate all to often when setting up projects.
 Its a mixture of resources that I use when prototyping and designing
 
-I've grown to like it.  And I'll probably keep updating it as time goes by.
+I've grown really accustomed to it.  And I'll probably keep updating it as time goes by.
 
 Couple of notes:
 
