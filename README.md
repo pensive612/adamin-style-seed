@@ -43,6 +43,18 @@ styles
 
 ```
 
+### Bower
+This uses bower by default, although, its far from necessary.  If you do want to
+use it, add this to your bower.json file
+
+```
+"devDependencies": {
+    "semantic-grid": "*",
+    "bourbon": "*",
+    "normalize-scss": "*"
+  }
+```
+
 Inspired by (and uses):
 - [SMACSS](http://smacss.com/)
 - [Stubbornella](http://www.stubbornella.org/content/)
