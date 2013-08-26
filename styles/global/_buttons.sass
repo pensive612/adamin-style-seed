@@ -1,0 +1,27 @@
+// default button styles.  some of it purged from Twitter Bootstrap
+button, .btn, a.btn
+  +inline-block
+  font-size: $baseFontSize
+  line-height: $baseLineHeight
+  text-align: center
+  vertical-align: middle
+  cursor: pointer
+  *border: 0 // Remove the border to prevent IE7's black border on input:focus
+  border-radius: $round
+  +ie7-restore-left-whitespace() // Give IE7 some love
+  background: $buttonBackground
+  +transition(background 100ms linear)
+
+  &:active
+
+  &:hover
+    background: darken($buttonBackground, 10%)
+
+  &:focus
+    +tab-focus()
+
+  &.disabled, &[disabled]
+    cursor: default
+    background-image: none
+    +opacity(65)
+    box-shadow: none

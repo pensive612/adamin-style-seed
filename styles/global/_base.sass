@@ -1,0 +1,21 @@
+// basic element overriding goes here, rule of thumb,
+// if it requires more than 1 selector, it probably shouldn't go in here
+
+*, *:before, *:after
+  +box-sizing(border-box)
+
+.clearfix, .cf
+  +clearfix
+
+html
+  overflow-y: scroll
+
+body
+  font-family: $body-font
+  color: $body-font-color
+  font-size: $body-font-size
+  line-height: $body-line-height
+  text-rendering: optimizeLegibility
+
+ul
+  padding: 0 1em
