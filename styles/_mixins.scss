@@ -1,4 +1,6 @@
-// responsive
+// responsive mixins
+// I use these for my quasi-mobile first style, so they're only min-width
+// rules.  Besides mobile.  This will make your life easier, trust me.
 @mixin break($media) {
   @if $media == mobile-only {
     @media screen and (max-width:$break-small) {@content;}
@@ -28,8 +30,6 @@
   display: inline-block;
   @include ie7-inline-block();
 }
-
-// ie7 taken from Twitter Booststrap
 
 // ----------------
 @mixin ie7-inline-block() {
