@@ -13,7 +13,7 @@ Couple of notes:
 - If you have any questions, don't hesitate to ping me.
 
 ### Structure
-
+```
 styles
 |
 |---lib                 // for reusing mixins and vars
@@ -41,7 +41,7 @@ styles
 |
 |---ie                  // for that super fun part of writing ie only css
 
-
+```
 
 Inspired by (and uses):
 - [SMACSS](http://smacss.com/)
