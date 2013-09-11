@@ -1,15 +1,13 @@
 ## styles-seed
 
 ### What is this is?
-Just a starting point that I recreate all to often when setting up projects.
-Its a mixture of resources that I use when prototyping and designing
 
-I've grown really accustomed to it.  And I'll probably keep updating it as time goes by.
+A starting point that I use for medium/large css projects.
 
 Couple of notes:
 
 - I've created it in SCSS and SASS.  If you prefer, Stylus, or even Less.  Feel free to convert it.
-- If you want to use it, the files are just suggestions, do with it what you like.
+- The files are just suggestions, edit it to fit your taste.
 - If you have any questions, don't hesitate to ping me.
 
 ### Structure
@@ -31,7 +29,7 @@ styles
 |   |---state
 |   └---typography
 |
-|---> libraries         // for storing vendor/library files
+|---> vendor            // for storing vendor/library files
 |
 |---> modules           // for reusable module css
 |   |---footer
@@ -45,22 +43,21 @@ styles
 ```
 
 ### Loading the files
-You only need to load global.css in your html.  I like to separate my
-global from any singular css files so users can cache the more robust global folder.
+The only required file to load is global.css.  I like to separate my
+global from any static/singular css files so users can cache the more robust global folder.
 Although, you shouldn't let it get very big anyway.
 
 So load anything in ```/static/``` separately.
 
-And ie.css is up to you.  I've only used it on 1 major project recently, but its enough
-to have it in here.
+And ie.css is up to you.   These days, we need less and less in there.  But its there if you want it.
 
 ```
 <link rel="stylesheet" href="styles/global.css">
 <!--[if lte IE 8]><link rel="stylesheet" href="styles/ie.css"><![endif]-->
 ```
 
-### Bower
-This uses bower by default, although, its far from necessary.  If you do want to
+### Extra Files
+This uses bower by default, although, its unnecessary.  If you do want to
 use it, add this to your bower.json file
 
 ```
@@ -70,6 +67,10 @@ use it, add this to your bower.json file
     "normalize-scss": "*"
   }
 ```
+
+And feel free to switch out Bourbon with Compass.
+
+---------------------------
 
 Inspired by (and uses):
 - [SMACSS](http://smacss.com/)
