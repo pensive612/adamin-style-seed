@@ -1,4 +1,4 @@
-## adamin-style-seed
+## styles-seed
 
 ### What is this is?
 Just a starting point that I recreate all to often when setting up projects.
@@ -8,7 +8,7 @@ I've grown really accustomed to it.  And I'll probably keep updating it as time 
 
 Couple of notes:
 
-- Its all in SASS.  If you like SCSS, Stylus, or even Less.  Feel free to convert it.
+- I've created it in SCSS and SASS.  If you prefer, Stylus, or even Less.  Feel free to convert it.
 - If you want to use it, the files are just suggestions, do with it what you like.
 - If you have any questions, don't hesitate to ping me.
 
