@@ -1,0 +1,44 @@
+// colors
+$grey: hsla(0, 0%, 53.73%, 1);
+$lt-grey: lighten($grey, 25%);
+$black: hsla(0, 1.18%, 24.33%, 1);
+
+// font-families
+$lucida: "Lucida Grande", "Lucida Sans Unicode", Tahoma, sans-serif;
+$proxima: "proxima-nova-n6", "proxima-nova", sans-serif;
+
+// round
+$round: 5px;
+
+// type
+$body-font: $helvetica;
+$body-font-color: $black;
+$body-font-size: 16px;
+$body-line-height: $body-font-size * 1.8;
+
+$wide-body-font-size: 22px;
+
+// Grid
+$total-width: 100%;
+$column-width: 60;
+$gutter-width: 0;
+$columns: 12;
+
+// Bootstrap Vars
+$baseFontSize: 14px;
+$baseLineHeight: $baseFontSize * 1.8;
+$buttonBackground: $lt-grey;
+$paddingSmall: 0.25em;
+$paddingMini: 0.125em;
+$paddingLarge: 0.33em 1em;
+$fontSizeLarge: 24px;
+$fontSizeSmall: 12px;
+$fontSizeMini: 10px;
+$linkColor: blue;
+$linkColorHover: purple;
+
+// Media Queries
+$break-mobile: 320px;
+$break-small: 480px;
+$break-medium: 768px;
+$break-large: 1200px;

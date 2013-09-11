@@ -1,0 +1,27 @@
+// default button styles.  some of it purged from Twitter Bootstrap
+button, .btn, a.btn {
+  @include inline-block;
+  font-size: $baseFontSize;
+  line-height: $baseLineHeight;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+  *border: 0;
+  border-radius: $round;
+  @include ie7-restore-left-whitespace;
+  background: $buttonBackground;
+  @include transition(background 100ms linear);
+  &:active {}
+  &:hover {
+    background: darken($buttonBackground, 10%);
+  }
+  &:focus {
+    @include tab-focus;
+  }
+  &.disabled, &[disabled] {
+    cursor: default;
+    background-image: none;
+    @include opacity(65);
+    box-shadow: none;
+  }
+}

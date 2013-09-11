@@ -1,0 +1,8 @@
+// only setting variables and mixins so it can be re-used in any separate stylesheet
+
+// you can switch this out for compass, lately I just like the documentation
+// better on bourbon.  http://bourbon.io/
+@import "../bower_components/bourbon/app/assets/stylesheets/bourbon";
+
+@import "vars";
+@import "mixins";

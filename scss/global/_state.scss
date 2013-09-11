@@ -1,0 +1,17 @@
+// simple modifiers
+
+.pull-left, .left, .back {
+  float: left;
+}
+
+.pull-right, .right, .back {
+  float: right;
+}
+
+.is-hidden {
+  display: none !important;
+}
+
+.is-centered {
+  text-align: center;
+}
