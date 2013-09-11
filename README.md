@@ -18,7 +18,7 @@ styles
 |---mixins              // custom mixins
 |---vars                // localized variables
 |
-|---global              // all reusable css is imported here
+|---global              // similar to your pipeline assets file
 |
 |---> global            // all modular css should have a home here
 |   |---base
@@ -36,7 +36,7 @@ styles
 |   |---header
 |   |---forms
 |
-|---static              // for css that will only loades separately
+|---static              // for css that will be loaded separately
 |
 |---ie                  // for that super fun part of writing ie only css
 
